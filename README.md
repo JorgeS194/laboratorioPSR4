@@ -9,7 +9,7 @@ Implementación de carga automática (Autoload) utilizando el estándar PSR-4 en
 1. Clonar el repositorio
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/JorgeS194/laboratorioPSR4.git
 ```
 
 2. Entrar al proyecto
@@ -84,10 +84,14 @@ Correo enviado correctamente.
 
 El uso de PSR-4 facilita agregar nuevas clases sin modificar múltiples archivos manualmente.
 
-## 2. Eficiencia
+## 2. Escalabilidad
+
+La implementación de PSR-4 permite organizar proyectos grandes de forma estructurada, facilitando la separación de responsabilidades mediante carpetas y namespaces. Esto mejora el crecimiento del sistema sin generar desorden en el código fuente.
+
+## 3. Eficiencia
 
 Composer utiliza carga automática bajo demanda (Lazy Loading), cargando únicamente las clases necesarias durante la ejecución.
 
-## 3. Estandarización
+## 4. Estandarización
 
 PSR-4 establece una estructura clara y profesional que facilita el trabajo colaborativo y la comprensión del código.
